@@ -5,6 +5,7 @@ import {
   benefitIcon4,
   benefitImage2,
   chromecast,
+  DougLarry,
   disc02,
   discord,
   discordBlack,
@@ -34,40 +35,36 @@ import {
   telegram,
   twitter,
   yourlogo,
+  GidayMe,
+  MayorBruce,
+  JAY,
+  Podium,
+  YukiMe,
+  image1,
+  image2,
+  image3,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "About",
+    url: "#about",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+  // {
+  //   id: "1",
+  //   title: "The Problem",
+  //   url: "#problem",
+  // },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Outlook",
+    url: "#outlook",
   },
   {
     id: "3",
     title: "Roadmap",
     url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
   },
 ];
 
@@ -75,12 +72,12 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
-
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+export const DreamRisingServices = [
+  "Advocacy Programs",
+  "Vocational Training Programs",
+  "Digital & Financial Literacy Workshops",
+  "Transitional Housing",
+  "First Time Home Buyer Training",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,36 +91,20 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
+    title: "Pilot Program",
+    text: "Launch a pilot program to provide justice-impacted, underprivileged, underserved, and immigrant individuals with access to essential services such as mindful education, employment assistance, housing resources, financial education and mental health support.",
+    date: "2025",
+    status: "progress",
+    imageUrl: roadmap3,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Generate actionable metrics",
+    text: "We will gather and analyze key metrics to track progress, measure impact, and guide our efforts in empowering justice-impacted and underprivileged individuals to build sustainable futures.",
+    date: "2025",
     status: "progress",
     imageUrl: roadmap2,
-  },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
   },
 ];
 
@@ -244,85 +225,85 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Holistic Empowerment Approach",
+    text: "Rather than only meeting immediate needs, we aim to foster long-term self-sufficiency and empowerment, helping individuals build skills and confidence that last a lifetime.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: DougLarry,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Community-Centric Solutions",
+    text: "We prioritize community voices, ensuring our programs are tailored to the unique needs and aspirations of those we serve.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: GidayMe,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Focus on Systemic Change",
+    text: "We advocate for fairer policies and create pathways for underrepresented communities, working with government, businesses, and community organizations to change the systems that hold people back.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: MayorBruce,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Personal Resilience and Transformation",
+    text: "DreamRising was founded on personal experience with the justice system and empowerment challenges. Guided by firsthand insight into the barriers faced by justice-impacted individuals, our leadership drives our mission for change.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: JAY,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Measurable Impact and Accountability",
+    text: "We set clear, measurable goals and are committed to transparency.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: Podium,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Attainable Transformation",
+    text: "We collaborate with local employers, housing agencies, reentry programs, and mental health professionals, leveraging volunteers and community resources to deliver services effectively.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: YukiMe,
   },
 ];
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+  // {
+  //   id: "0",
+  //   title: "Discord",
+  //   iconUrl: discordBlack,
+  //   url: "#",
+  // },
+  // {
+  //   id: "1",
+  //   title: "Twitter",
+  //   iconUrl: twitter,
+  //   url: "#",
+  // },
+  // {
+  //   id: "2",
+  //   title: "Instagram",
+  //   iconUrl: instagram,
+  //   url: "#",
+  // },
+  // {
+  //   id: "3",
+  //   title: "Telegram",
+  //   iconUrl: telegram,
+  //   url: "#",
+  // },
+  // {
+  //   id: "4",
+  //   title: "Facebook",
+  //   iconUrl: facebook,
+  //   url: "#",
+  // },
 ];

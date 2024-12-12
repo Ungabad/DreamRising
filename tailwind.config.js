@@ -82,11 +82,11 @@ export default {
             {},
         },
         ".h1": {
-          "@apply font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem]":
+          "@apply font-semibold text-[2.25rem] leading-[3.25rem] md:text-[2.5rem] md:leading-[3.75rem] lg:text-[3rem] lg:leading-[4.0625rem] xl:text-[3.5rem] xl:leading-[4.5rem]":
             {},
         },
         ".h2": {
-          "@apply text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight":
+          "@apply text-[1.5rem] leading-[2.5rem] md:text-[1.75rem] md:leading-[2.5rem] lg:text-[2.25rem] lg:leading-[3.5rem] xl:text-[2.5rem] xl:leading-tight":
             {},
         },
         ".h3": {

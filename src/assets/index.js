@@ -1,4 +1,15 @@
-import brainwave from "./brainwave.svg";
+import dreamrising from "./dreamrising.svg";
+import DougLarry from "./DreamRising/DougLarry.jpg";
+import GidayMe from "./DreamRising/GidayMe.jpg";
+import MayorBruce from "./DreamRising/MayorBruce.jpg";
+import JAY from "./DreamRising/JAY.jpg";
+import Podium from "./DreamRising/Podium.jpg";
+import YukiMe from "./DreamRising/YukiMe.jpg";
+
+import image1 from "./image1.png";
+import image2 from "./image2.png";
+import image3 from "./image3.png";
+
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -20,6 +31,8 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
+import community from "./DreamRising/community.jpg";
+import commIcon from "./DreamRising/commIcon.jpg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
@@ -76,9 +89,20 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  brainwave,
+  image1,
+  image2,
+  image3,
+  dreamrising,
+  DougLarry,
+  GidayMe,
+  MayorBruce,
+  JAY,
+  Podium,
+  YukiMe,
+  commIcon,
   check,
   check2,
+  community,
   loading1,
   brainwaveSymbol,
   brainwaveWhiteSymbol,
