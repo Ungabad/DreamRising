@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { image1, image2, GidayMe, check } from "../assets";
+import { image1, image2, GidayMe, check, stairs, party } from "../assets";
 import { brainwaveServicesIcons, DreamRisingServices } from "../constants";
 import {
   PhotoChatMessage,
@@ -28,7 +28,7 @@ const Services = () => {
                 width={800}
                 alt='3 Students around a table'
                 height={730}
-                src={image1}
+                src={stairs}
               />
             </div>
 
@@ -60,10 +60,10 @@ const Services = () => {
             <div className='relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden'>
               <div className='absolute inset-0'>
                 <img
-                  src={image2}
-                  className='h-full w-full object-cover'
-                  width={630}
-                  height={750}
+                  src={party}
+                  className='h-auto w-auto object-cover'
+                  width={500}
+                  height={500}
                   alt='Students Walking'
                 />
               </div>

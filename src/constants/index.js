@@ -43,6 +43,7 @@ import {
   image1,
   image2,
   image3,
+  stairs,
 } from "../assets";
 
 export const navigation = [
@@ -105,6 +106,14 @@ export const roadmap = [
     date: "2025",
     status: "progress",
     imageUrl: roadmap2,
+  },
+  {
+    id: "2",
+    title: "Healing Circle",
+    text: "Create a supportive and community driven meeting where people can come together, heal and connect with us and each other in a positive and meaningful dialectic.",
+    date: "2024",
+    status: "done",
+    imageUrl: roadmap3,
   },
 ];
 
