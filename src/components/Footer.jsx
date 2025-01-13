@@ -23,6 +23,9 @@ const Footer = () => {
           ))}
         </ul>
       </div>
+      <p className="text-center text-n-4 mt-5">
+        Contact us at: <a href="mailto:dreamrising@dreamrise.org" className="underline">dreamrising@dreamrise.org</a>
+      </p>
     </Section>
   );
 };
