@@ -36,7 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className='body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8'>
-            We aim to empower justice-impacted, underprivileged, and immigrant
+            We aim to empower justice-impacted, underserved, and immigrant
             individuals and families through mindful education, advocacy,
             digital and financial literacy.
           </p>

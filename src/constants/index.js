@@ -93,7 +93,7 @@ export const roadmap = [
   {
     id: "0",
     title: "Pilot Program",
-    text: "Launch a pilot program to provide justice-impacted, underprivileged, underserved, and immigrant individuals with access to essential services such as mindful education, employment assistance, housing resources, financial education and mental health support.",
+    text: "Launch a pilot program to provide justice-impacted, underserved, underserved, and immigrant individuals with access to essential services such as mindful education, employment assistance, housing resources, financial education and mental health support.",
     date: "2025",
     status: "progress",
     imageUrl: roadmap3,
@@ -102,7 +102,7 @@ export const roadmap = [
   {
     id: "1",
     title: "Generate actionable metrics",
-    text: "We will gather and analyze key metrics to track progress, measure impact, and guide our efforts in empowering justice-impacted and underprivileged individuals to build sustainable futures.",
+    text: "We will gather and analyze key metrics to track progress, measure impact, and guide our efforts in empowering justice-impacted and underserved individuals to build sustainable futures.",
     date: "2025",
     status: "progress",
     imageUrl: roadmap2,
