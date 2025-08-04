@@ -67,6 +67,11 @@ export const navigation = [
     title: "Roadmap",
     url: "#roadmap",
   },
+  {
+    id: "4",
+    title: "Donate",
+    url: "/donate",
+  },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
