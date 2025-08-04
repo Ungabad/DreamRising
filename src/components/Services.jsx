@@ -1,6 +1,6 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { image1, image2, GidayMe, check, stairs, party } from "../assets";
+import { image1, image2, GidayMe, check, stairs, DougLarry } from "../assets";
 import { brainwaveServicesIcons, DreamRisingServices } from "../constants";
 import {
   PhotoChatMessage,
@@ -60,7 +60,7 @@ const Services = () => {
             <div className='relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden'>
               <div className='absolute inset-0'>
                 <img
-                  src={party}
+                  src={DougLarry}
                   className='h-auto w-auto object-cover'
                   width={500}
                   height={500}

@@ -6,7 +6,6 @@ import JAY from "./DreamRising/JAY.jpg";
 import Podium from "./DreamRising/Podium.jpg";
 import YukiMe from "./DreamRising/YukiMe.jpg";
 import stairs from "./Stairs.png";
-import party from "./party.png";
 
 import image1 from "./image1.png";
 import image2 from "./image2.png";
@@ -92,7 +91,6 @@ import twitter from "./socials/twitter.svg";
 
 export {
   stairs,
-  party,
   image1,
   image2,
   image3,
