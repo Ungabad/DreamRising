@@ -43,7 +43,6 @@ import {
   image1,
   image2,
   image3,
-  stairs,
 } from "../assets";
 
 export const navigation = [
